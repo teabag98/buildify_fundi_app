@@ -8,8 +8,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="fundi" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="BookmarkManager">
@@ -113,11 +112,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/BaseActivity2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4658">
-              <caret line="361" column="13" selection-start-line="361" selection-start-column="13" selection-end-line="361" selection-end-column="13" />
+            <state relative-caret-position="186">
+              <caret line="812" lean-forward="true" selection-start-line="812" selection-end-line="812" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#16065#16355#0" />
+                <element signature="e#6225#16059#0" />
                 <element signature="e#16361#16647#0" />
                 <element signature="e#16653#17049#0" />
                 <element signature="e#17055#17442#0" />
@@ -127,6 +126,8 @@
                 <element signature="e#23676#24223#0" />
                 <element signature="e#24229#25434#0" />
                 <element signature="e#25440#26960#0" />
+                <element signature="e#34995#35274#0" expanded="true" />
+                <element signature="e#35273#35274#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/https/HttpsRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="148">
+              <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
               <folding>
                 <element signature="method#HttpsRequest#3;class#HttpsRequest#0" />
                 <element signature="method#stringPostJson#0;class#HttpsRequest#0" />
@@ -232,11 +233,11 @@
       <find>stringGet</find>
       <find>stringPo</find>
       <find>clickProfile</find>
-      <find>updateLocation</find>
       <find>getMyLocation</find>
       <find>runn</find>
       <find>loadHomeFragment</find>
       <find>getCategory</find>
+      <find>updateLocation</find>
     </findStrings>
     <replaceStrings>
       <replace>http://getthatdone.co.uk/admin</replace>
@@ -354,6 +355,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -495,8 +498,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -513,7 +514,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="device.picker.selection" value="00d099ee0fd530d1" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../buildify_customer/MB_Customer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -772,14 +773,14 @@
       <window_info id="Resources Explorer" order="8" weight="0.3293011" />
       <window_info anchor="bottom" id="Flutter Performance" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.8489933" weight="0.39093485" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7" weight="0.26487252" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7" visible="true" weight="0.26487252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49395972" weight="0.26912183" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3169399" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.3" side_tool="true" weight="0.26487252" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.6120805" visible="true" weight="0.2407932" />
-      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.6120805" weight="0.2407932" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Find" order="10" sideWeight="0.49932885" weight="0.32719547" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32984293" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -1109,12 +1110,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/BaseActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/service/GPSTracker.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1248,26 +1249,6 @@
     <entry file="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/BaseActivity2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4658">
-          <caret line="361" column="13" selection-start-line="361" selection-start-column="13" selection-end-line="361" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#16065#16355#0" />
-            <element signature="e#16361#16647#0" />
-            <element signature="e#16653#17049#0" />
-            <element signature="e#17055#17442#0" />
-            <element signature="e#17448#18196#0" />
-            <element signature="e#18203#18623#0" />
-            <element signature="e#18630#23670#0" />
-            <element signature="e#23676#24223#0" />
-            <element signature="e#24229#25434#0" />
-            <element signature="e#25440#26960#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/ArtistProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9010">
@@ -1306,10 +1287,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/BaseActivity2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="812" lean-forward="true" selection-start-line="812" selection-end-line="812" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6225#16059#0" />
+            <element signature="e#16361#16647#0" />
+            <element signature="e#16653#17049#0" />
+            <element signature="e#17055#17442#0" />
+            <element signature="e#17448#18196#0" />
+            <element signature="e#18203#18623#0" />
+            <element signature="e#18630#23670#0" />
+            <element signature="e#23676#24223#0" />
+            <element signature="e#24229#25434#0" />
+            <element signature="e#25440#26960#0" />
+            <element signature="e#34995#35274#0" expanded="true" />
+            <element signature="e#35273#35274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/https/HttpsRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="148">
+          <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
           <folding>
             <element signature="method#HttpsRequest#3;class#HttpsRequest#0" />
             <element signature="method#stringPostJson#0;class#HttpsRequest#0" />

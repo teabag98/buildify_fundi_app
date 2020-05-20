@@ -672,6 +672,7 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
 
                             }
 
+
 //                            final Status status = result.getStatus();
 //                            switch (status.getStatusCode()) {
 //                                case LocationSettingsStatusCodes.SUCCESS:
@@ -706,7 +707,7 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
 //                                    break;
                         }
                     });
-
+                    updateLocation();
                 }
             }
         }
@@ -721,7 +722,6 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
                 switch (resultCode) {
                     case Activity.RESULT_OK:
                         getMyLocation();
-                        updateLocation();
                         break;
                     case Activity.RESULT_CANCELED:
 
@@ -780,7 +780,6 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
             }
         } else {
             getMyLocation();
-            updateLocation();
         }
 
     }
@@ -791,7 +790,7 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
                 Manifest.permission.ACCESS_FINE_LOCATION);
         if (permissionLocation == PackageManager.PERMISSION_GRANTED) {
             getMyLocation();
-            updateLocation();
+
         }
     }
 
@@ -912,6 +911,5 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
                 .setCancelable(false)
                 .show();
     }
-
 
 }
