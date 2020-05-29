@@ -8,7 +8,8 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="fundi lo" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="BookmarkManager">
@@ -112,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/BaseActivity2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="812" lean-forward="true" selection-start-line="812" selection-end-line="812" />
+            <state relative-caret-position="6426">
+              <caret line="825" column="37" selection-start-line="825" selection-start-column="37" selection-end-line="825" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6225#16059#0" />
@@ -126,21 +127,50 @@
                 <element signature="e#23676#24223#0" />
                 <element signature="e#24229#25434#0" />
                 <element signature="e#25440#26960#0" />
-                <element signature="e#34995#35274#0" expanded="true" />
-                <element signature="e#35273#35274#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk">
+          <provider selected="true" editor-type-id="apk-viewer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/EditPersnoalInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/DTO/ArtistBookingDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/jsonparser/JSONParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/https/HttpsRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+            <state relative-caret-position="731">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="method#HttpsRequest#3;class#HttpsRequest#0" />
-                <element signature="method#stringPostJson#0;class#HttpsRequest#0" />
                 <element signature="method#imagePost#0;class#HttpsRequest#0" />
               </folding>
             </state>
@@ -171,8 +201,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/interfacess/Consts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="1819">
+              <caret line="107" column="35" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -180,17 +210,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/DTO/ArtistBooking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/preferences/SharedPrefrence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="2686">
+              <caret line="270" column="38" selection-start-line="270" selection-start-column="38" selection-end-line="270" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -208,17 +229,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>latitude</find>
-      <find>payment_u</find>
-      <find>api</find>
-      <find>DEVELoper_KEY</find>
-      <find>onlocation</find>
-      <find>MAP</find>
-      <find>75.897542</find>
-      <find>LATITUDE</find>
-      <find>getC_latitude()</find>
-      <find>htt</find>
-      <find>getC_latitude</find>
       <find>location</find>
       <find>setPrice</find>
       <find>getApproveStatus</find>
@@ -231,12 +241,23 @@
       <find>myObj</find>
       <find>stringPost</find>
       <find>stringGet</find>
-      <find>stringPo</find>
       <find>clickProfile</find>
       <find>getMyLocation</find>
       <find>runn</find>
       <find>loadHomeFragment</find>
       <find>getCategory</find>
+      <find>latit</find>
+      <find>respo</find>
+      <find>c_lati</find>
+      <find>getC_latitude</find>
+      <find>getC_</find>
+      <find>stringPo</find>
+      <find>lati</find>
+      <find>projectUtils</find>
+      <find>params</find>
+      <find>latitude</find>
+      <find>LIve_lat</find>
+      <find>live_lat</find>
       <find>updateLocation</find>
     </findStrings>
     <replaceStrings>
@@ -276,7 +297,7 @@
     </dirStrings>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/app/MBuildify.jks" />
+    <option name="KEY_STORE_PATH" value="C:\Users\Erick\Desktop\buildify_fundi\mbuildify\app\MBuildify.jks" />
     <option name="KEY_ALIAS" value="key0" />
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
@@ -287,7 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_appointment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_artist_profile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_customer_booking.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_persnoal_info.xml" />
@@ -335,8 +355,9 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/interfacess/Consts.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/preferences/SharedPrefrence.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/DTO/ArtistBooking.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/https/HttpsRequest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/DTO/ArtistBookingDTO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/DTO/ArtistBooking.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/BaseActivity2.java" />
       </list>
     </option>
@@ -355,8 +376,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -466,6 +486,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qinsley" type="462c0819:PsiDirectoryNode" />
               <item name="mbuildify" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonparser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mbuildify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mbuildify" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qinsley" type="462c0819:PsiDirectoryNode" />
+              <item name="mbuildify" type="462c0819:PsiDirectoryNode" />
               <item name="preferences" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -493,20 +525,34 @@
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="activity" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mbuildify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mbuildify" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qinsley" type="462c0819:PsiDirectoryNode" />
+              <item name="mbuildify" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DEBUGGABLE_DEVICE" value="lge-nexus_5x-00d099ee0fd530d1" />
     <property name="DEBUGGABLE_PROCESS" value="com.samyotech.fabartists" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_28" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-01T08:24:25.425Z" />
-    <property name="ExportApk.ApkPath" value="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="02808097A8003651" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-21T09:42:50.563Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Erick\Desktop\buildify_fundi\mbuildify\app" />
     <property name="ExportApk.BuildVariants" value="debug" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
@@ -514,7 +560,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="device.picker.selection" value="00d099ee0fd530d1" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../buildify_customer/MB_Customer" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -760,31 +806,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50280374" weight="0.2063172" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4945946" visible="true" weight="0.22751679" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4945946" visible="true" weight="0.22483222" />
       <window_info id="Captures" order="2" sideWeight="0.5008726" side_tool="true" weight="0.32954547" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.32954547" />
       <window_info id="Build Variants" order="4" sideWeight="0.5054054" side_tool="true" weight="0.2536913" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
-      <window_info id="Resources Explorer" order="8" weight="0.3293011" />
+      <window_info id="Resources Explorer" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Flutter Performance" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.8489933" weight="0.39093485" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7" visible="true" weight="0.26487252" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.8489933" weight="0.34135976" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7" weight="0.26487252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49395972" weight="0.26912183" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3169399" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.3" side_tool="true" weight="0.26487252" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.6120805" weight="0.2407932" />
-      <window_info anchor="bottom" id="Android Profiler" order="9" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.6120805" visible="true" weight="0.2407932" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Find" order="10" sideWeight="0.49932885" weight="0.32719547" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32984293" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Gradle" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="right" id="Gradle" order="1" visible="true" weight="0.32885906" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Fabric" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
@@ -796,7 +841,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" sideWeight="0.50280374" weight="0.2063172" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4945946" visible="true" weight="0.23087248" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4945946" visible="true" weight="0.22751679" />
       <window_info id="Captures" order="2" sideWeight="0.5008726" side_tool="true" weight="0.32954547" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.32954547" />
       <window_info id="Build Variants" order="4" sideWeight="0.5054054" side_tool="true" weight="0.2536913" />
@@ -805,15 +850,15 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Resources Explorer" order="8" weight="0.3293011" />
       <window_info anchor="bottom" id="Flutter Performance" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49597314" weight="0.45609066" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9147651" weight="0.21954674" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.8489933" visible="true" weight="0.39093485" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7" weight="0.26487252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49395972" weight="0.26912183" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.0852349" side_tool="true" weight="0.48300284" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3169399" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.3" side_tool="true" weight="0.26487252" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Build" order="8" sideWeight="0.6134228" visible="true" weight="0.4022663" />
-      <window_info anchor="bottom" id="Android Profiler" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.6120805" weight="0.2407932" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Find" order="10" sideWeight="0.49932885" weight="0.32719547" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32984293" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -900,41 +945,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/ImageGallery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/PaidFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/PersnoalInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/PreviousWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -950,8 +960,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chat_list.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/Privacy.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -961,8 +971,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/AppIntro.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1181,13 +1191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/EditPersnoalInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="467" column="15" selection-start-line="467" selection-start-column="15" selection-end-line="467" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/https/CertificatesRequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1249,6 +1252,71 @@
     <entry file="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/preferences/SharedPrefrence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/MBuildify.jks">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/fabric.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/BaseActivity2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6426">
+          <caret line="825" column="37" selection-start-line="825" selection-start-column="37" selection-end-line="825" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6225#16059#0" />
+            <element signature="e#16361#16647#0" />
+            <element signature="e#16653#17049#0" />
+            <element signature="e#17055#17442#0" />
+            <element signature="e#17448#18196#0" />
+            <element signature="e#18203#18623#0" />
+            <element signature="e#18630#23670#0" />
+            <element signature="e#23676#24223#0" />
+            <element signature="e#24229#25434#0" />
+            <element signature="e#25440#26960#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/EditPersnoalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/DTO/ArtistBookingDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/jsonparser/JSONParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/https/HttpsRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="method#HttpsRequest#3;class#HttpsRequest#0" />
+            <element signature="method#imagePost#0;class#HttpsRequest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/ArtistProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9010">
@@ -1268,58 +1336,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/interfacess/Consts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="1819">
+          <caret line="107" column="35" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/DTO/ArtistBooking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
+        <state relative-caret-position="2686">
+          <caret line="270" column="38" selection-start-line="270" selection-start-column="38" selection-end-line="270" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/preferences/SharedPrefrence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/BaseActivity2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="812" lean-forward="true" selection-start-line="812" selection-end-line="812" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6225#16059#0" />
-            <element signature="e#16361#16647#0" />
-            <element signature="e#16653#17049#0" />
-            <element signature="e#17055#17442#0" />
-            <element signature="e#17448#18196#0" />
-            <element signature="e#18203#18623#0" />
-            <element signature="e#18630#23670#0" />
-            <element signature="e#23676#24223#0" />
-            <element signature="e#24229#25434#0" />
-            <element signature="e#25440#26960#0" />
-            <element signature="e#34995#35274#0" expanded="true" />
-            <element signature="e#35273#35274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/https/HttpsRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
-          <folding>
-            <element signature="method#HttpsRequest#3;class#HttpsRequest#0" />
-            <element signature="method#stringPostJson#0;class#HttpsRequest#0" />
-            <element signature="method#imagePost#0;class#HttpsRequest#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk">
+      <provider selected="true" editor-type-id="apk-viewer" />
     </entry>
   </component>
   <component name="masterDetails">

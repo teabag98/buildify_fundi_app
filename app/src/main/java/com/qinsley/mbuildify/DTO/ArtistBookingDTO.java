@@ -1,9 +1,7 @@
 package com.qinsley.mbuildify.DTO;
 
 import java.io.Serializable;
-/**
- * Created by VARUN on 01/01/19.
- */
+
 public class ArtistBookingDTO implements Serializable {
     String username = "";
     String userImage = "";

@@ -31,8 +31,8 @@ public class ArtistBooking implements Serializable {
     String userName = "";
     String address = "";
     String ava_rating = "";
-    String c_latitude = "-1.259170";
-    String c_longitude = "36.798440";
+    String latitude = "-1.259170";
+    String longitude = "36.798440";
     String working_min = "";
     String userImage = "";
     String currency_type = "";
@@ -257,19 +257,19 @@ public class ArtistBooking implements Serializable {
     }
 
     public String getC_latitude() {
-        return c_latitude;
+        return latitude;
     }
 
-    public void setC_latitude(String c_latitude) {
-        this.c_latitude = c_latitude;
+    public void setC_latitude(String latitude) {
+        this.latitude = latitude;
     }
 
     public String getC_longitude() {
-        return c_longitude;
+        return longitude;
     }
 
-    public void setC_longitude(String c_longitude) {
-        this.c_longitude = c_longitude;
+    public void setC_longitude(String longitude) {
+        this.longitude = longitude;
     }
 
     public String getWorking_min() {

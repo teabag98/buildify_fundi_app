@@ -651,13 +651,13 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
 
 //                                mylocation.setLatitude(location.getLatitude());
 //                                mylocation.setLongitude(location.getLongitude());
-                                prefrence.setValue(Consts.LATITUDE, latitude + "");
-                                prefrence.setValue(Consts.LONGITUDE, longitude + "");
+                                prefrence.setValue(Consts.LATITUDE, latitude);
+                                prefrence.setValue(Consts.LONGITUDE, longitude);
 
                                 params.put(Consts.USER_ID, userDTO.getUser_id());
                                 params.put(Consts.ROLE, "1");
-                                params.put(Consts.LATITUDE, latitude + "");
-                                params.put(Consts.LONGITUDE, longitude + "");
+                                params.put(Consts.LATITUDE, latitude);
+                                params.put(Consts.LONGITUDE, longitude);
 //                                updateLocation();
 
                                 Log.d("message", "fundi location " + latitude + longitude);
@@ -671,6 +671,7 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
 
 
                             }
+                            updateLocation();
 
 
 //                            final Status status = result.getStatus();
@@ -706,8 +707,9 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
 //                                    //finish();
 //                                    break;
                         }
+
                     });
-                    updateLocation();
+
                 }
             }
         }
@@ -755,16 +757,17 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
             longitude = Double.toString(mylocation.getLongitude());
 
 
-            prefrence.setValue(Consts.LATITUDE, latitude + "");
-            prefrence.setValue(Consts.LONGITUDE, longitude + "");
+            prefrence.setValue(Consts.LATITUDE, latitude);
+            prefrence.setValue(Consts.LONGITUDE, longitude);
 
             params.put(Consts.USER_ID, userDTO.getUser_id());
             params.put(Consts.ROLE, "1");
-            params.put(Consts.LATITUDE, latitude + "");
-            params.put(Consts.LONGITUDE, longitude + "");
+            params.put(Consts.LATITUDE, latitude);
+            params.put(Consts.LONGITUDE, longitude);
 //            updateLocation();
 
         }
+        updateLocation();
     }
 
 
@@ -814,7 +817,6 @@ public class BaseActivity2 extends AppCompatActivity implements GoogleApiClient.
 
                 } else {
                     ProjectUtils.showToast(mContext, msg);
-
                 }
             }
         });
