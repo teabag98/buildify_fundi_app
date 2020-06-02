@@ -72,12 +72,25 @@
                     android:text="" />
 
             </com.qinsley.mbuildify.utils.InputFieldView>
-
             <com.qinsley.mbuildify.utils.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:hint="@string/select_your_grade"/>
+                android:drawableRight="@drawable/ic_drop_down"
+                android:editable="false"
+
+                android:hint="@string/select_your_grade"
+                android:singleLine="true">
+
+                <Spinner
+                    android:id="@+id/etGradeD"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                     />
+
+            </com.qinsley.mbuildify.utils.InputFieldView>
+
 
             <com.qinsley.mbuildify.utils.InputOpenFieldView
                 android:layout_width="match_parent"

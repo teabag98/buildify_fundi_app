@@ -19,6 +19,7 @@
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$)</string>
     <string name="action_camera">Camera</string>
     <string name="action_gallery">Choose from gallery</string>
+    <string name="select_grade">please select grade</string>
     <string name="label_select_img">Select image</string>
     <string name="string_choose_file">Choose certificate</string>
     <string name="string_upload_image">Upload</string>

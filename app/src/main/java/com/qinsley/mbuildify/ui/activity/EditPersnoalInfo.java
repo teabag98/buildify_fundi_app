@@ -15,8 +15,12 @@ import android.provider.MediaStore;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
@@ -70,6 +74,7 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
 
     private ArrayList<CategoryDTO> categoryDTOS = new ArrayList<>();
     private SpinnerDialog spinnerDialogCate;
+    private Spinner etGradeD;
     private ArtistDetailsDTO artistDetailsDTO;
     private Place place;
     private double lats = 0;
@@ -91,6 +96,7 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
     File file;
     Bitmap bitmap = null;
     private HashMap<String, File> paramsFile = new HashMap<>();
+    private ArrayList<String> gradesList = new ArrayList<>();
 
 
     @Override
@@ -133,6 +139,7 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
 
     public void setUiAction() {
         etCategoryD = (CustomEditText) findViewById(R.id.etCategoryD);
+        etGradeD = (Spinner) findViewById(R.id.etGradeD);
         etNameD = (CustomEditText) findViewById(R.id.etNameD);
         etCityD = (CustomEditText) findViewById(R.id.etCityD);
         etCountryD = (CustomEditText) findViewById(R.id.etCountryD);
@@ -214,7 +221,36 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
                 }
             }
         });
+        // grade selection
+        Spinner spinnerGrade = (Spinner) findViewById(R.id.etGradeD);
+//        gradesList.add("select your grade");
+        gradesList.add("Grade 1");
+        gradesList.add("Grade 2");
+        gradesList.add("Grade 3");
+        gradesList.add("Ungraded Artisan");
 
+        ArrayAdapter<String> gradeArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, gradesList);
+        gradeArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerGrade.setPrompt("select your grade");
+        spinnerGrade.setAdapter(gradeArrayAdapter);
+        spinnerGrade.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String gradeSelected = parent.getItemAtPosition(position).toString();
+                Toast.makeText(parent.getContext(), "Selected: " + gradeSelected, Toast.LENGTH_LONG).show();
+                paramsUpdate.put(Consts.GRADE, gradeSelected);
+                if(gradeSelected == "select your grade"){
+                    Toast.makeText(parent.getContext(),getResources().getString(R.string.select_grade),Toast.LENGTH_LONG).show();
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+
+
+        //cate selection
         spinnerDialogCate = new SpinnerDialog((Activity) mContext, categoryDTOS, getResources().getString(R.string.select_cate));// With 	Animation
         spinnerDialogCate.bindOnSpinerListener(new OnSpinerItemClick() {
             @Override
@@ -226,6 +262,7 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
 
             }
         });
+
 
         if (artistDetailsDTO != null) {
             showData();

@@ -6,9 +6,7 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.EditText;
 
-/**
- * Created by VARUN on 01/01/19.
- */
+
 
 @SuppressLint("AppCompatCustomView")
 public class CustomEditText extends EditText {
