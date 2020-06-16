@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/action_bar_menus"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/llBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/edit_personal_information"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+
+            <com.qinsley.mbuildify.utils.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.qinsley.mbuildify.utils.CustomEditText
+                    android:id="@+id/etCategoryD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_drop_down"
+                    android:editable="false"
+                    android:hint="@string/select_your_speciality"
+                    android:singleLine="true"
+                    android:text="" />
+
+            </com.qinsley.mbuildify.utils.InputFieldView>
+            <com.qinsley.mbuildify.utils.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableRight="@drawable/ic_drop_down"
+                android:editable="false"
+
+                android:hint="@string/select_your_grade"
+                android:singleLine="true">
+
+                <Spinner
+                    android:id="@+id/etGradeD"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                     />
+
+            </com.qinsley.mbuildify.utils.InputFieldView>
+
+
+            <com.qinsley.mbuildify.utils.InputOpenFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.qinsley.mbuildify.utils.CustomEditText
+                    android:id="@+id/etNameD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/your_name"
+                    android:inputType="textCapWords"
+                    android:singleLine="true"
+                    android:text="" />
+
+            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+
+
+            <com.qinsley.mbuildify.utils.InputOpenFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.qinsley.mbuildify.utils.CustomEditText
+                    android:id="@+id/etCityD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/your_city"
+                    android:inputType="textCapWords"
+                    android:singleLine="true"
+                    android:text="" />
+
+            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+
+            <com.qinsley.mbuildify.utils.InputOpenFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.qinsley.mbuildify.utils.CustomEditText
+                    android:id="@+id/etCountryD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/your_country"
+                    android:inputType="textCapWords"
+                    android:singleLine="true"
+                    android:text="" />
+
+            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+
+            <com.qinsley.mbuildify.utils.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+            <com.qinsley.mbuildify.utils.InputOpenFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+            <com.qinsley.mbuildify.utils.InputOpenFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+            <com.qinsley.mbuildify.utils.CustomTextView
+                android:id="@+id/bioLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="2dp"
+                android:text="" />
+
+            <com.qinsley.mbuildify.utils.InputOpenFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.qinsley.mbuildify.utils.CustomEditText
+                    android:id="@+id/etAboutD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:hint="@string/write_description"
+                    android:maxLength="200"
+                    android:text="" />
+
+            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+
+            <com.qinsley.mbuildify.utils.CustomTextView
+                android:id="@+id/aboutLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="2dp"
+                android:text="" />
+
+
+            <com.qinsley.mbuildify.utils.CustomTextViewBold
+                android:id="@+id/tvText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black" />
+
+            <com.qinsley.mbuildify.utils.CustomButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_selector3"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
