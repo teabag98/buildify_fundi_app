@@ -17,6 +17,7 @@ public class ArtistDetailsDTO implements Serializable {
     String updated_at = "";
     String longitude = "36.798440";
     String latitude = "-1.259170";
+    String location ="";
     String video_url = "";
     String price = "";
     String booking_flag = "";
@@ -122,6 +123,9 @@ public class ArtistDetailsDTO implements Serializable {
         this.description = description;
     }
 
+    public  String getLocation(){
+        return location;
+    }
     public ArrayList<SkillsDTO> getSkills() {
         return skills;
     }

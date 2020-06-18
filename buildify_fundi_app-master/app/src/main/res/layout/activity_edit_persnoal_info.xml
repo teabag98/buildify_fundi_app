@@ -56,10 +56,12 @@
             android:layout_marginRight="25dp"
             android:orientation="vertical">
 
+
             <com.qinsley.mbuildify.utils.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
+
 
                 <com.qinsley.mbuildify.utils.CustomEditText
                     android:id="@+id/etCategoryD"
@@ -72,6 +74,8 @@
                     android:text="" />
 
             </com.qinsley.mbuildify.utils.InputFieldView>
+
+
             <com.qinsley.mbuildify.utils.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -108,7 +112,23 @@
 
             </com.qinsley.mbuildify.utils.InputOpenFieldView>
 
+            <com.qinsley.mbuildify.utils.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
 
+                <com.qinsley.mbuildify.utils.CustomEditText
+                    android:id="@+id/etLocationD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_placeholder"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="@string/your_location"
+                    android:singleLine="true"
+                    android:text="" />
+
+            </com.qinsley.mbuildify.utils.InputFieldView>
             <com.qinsley.mbuildify.utils.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

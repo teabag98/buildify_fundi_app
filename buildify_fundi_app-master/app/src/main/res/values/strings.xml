@@ -25,7 +25,6 @@
     <string name="string_upload_image">Upload</string>
     <string name="skip_upload">Skip</string>
     <string name="please_upload_certificate">** Please upload your certification to enable account verification and grading. For Ungraded artisan and Hardware registration please skip</string>
-<!--    <string name="places_api_key">AIzaSyAbDQRWBdrEU6jUbC3AQ6xWdU9ZCuw-oEw</string>-->
     <string name="invoice">Invoice</string>
     <string name="pending">Pending</string>
     <string name="confirm">Confirmed</string>

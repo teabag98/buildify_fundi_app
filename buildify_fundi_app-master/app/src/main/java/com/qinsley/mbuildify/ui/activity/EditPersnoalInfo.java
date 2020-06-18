@@ -66,7 +66,7 @@ import static com.qinsley.mbuildify.interfacess.Consts.LONGITUDE;
 public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickListener {
     private String TAG = EditPersnoalInfo.class.getSimpleName();
     private Context mContext;
-    private CustomEditText etCategoryD, etNameD, etCityD, etCountryD;
+    private CustomEditText etCategoryD, etNameD, etCityD, etCountryD,etLocationD;
     private ImageView ivBanner;
     private CustomTextViewBold tvText;
     private CustomButton btnSubmit;
@@ -143,6 +143,7 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
         // grade selection
         spinnerGrade = (Spinner) findViewById(R.id.etGradeD);
 //        etGradeD = (Spinner) findViewById(R.id.etGradeD);
+        etLocationD = (CustomEditText) findViewById(R.id.etLocationD);
         etNameD = (CustomEditText) findViewById(R.id.etNameD);
         etCityD = (CustomEditText) findViewById(R.id.etCityD);
         etCountryD = (CustomEditText) findViewById(R.id.etCountryD);
@@ -150,10 +151,11 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
         btnSubmit = (CustomButton) findViewById(R.id.btnSubmit);
         llBack = (LinearLayout) findViewById(R.id.llBack);
 
-        
+
         etCategoryD.setOnClickListener(this);
         btnSubmit.setOnClickListener(this);
         llBack.setOnClickListener(this);
+        etLocationD.setOnClickListener(this);
 
         builder = new BottomSheet.Builder(EditPersnoalInfo.this).sheet(R.menu.menu_cards);
         builder.title(getResources().getString(R.string.select_img));
@@ -259,6 +261,7 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
                 @Override
                 public void onNothingSelected (AdapterView < ? > parent){
                     Toast.makeText(parent.getContext(), getResources().getString(R.string.select_grade), Toast.LENGTH_LONG).show();
+                    gradeInt = "0";
                 }
             });
 
@@ -329,6 +332,7 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
             etNameD.setText(artistDetailsDTO.getName());
             etCityD.setText(artistDetailsDTO.getCity());
             etCountryD.setText(artistDetailsDTO.getCountry());
+            etLocationD.setText(artistDetailsDTO.getLocation());
 
 
         }
@@ -357,6 +361,13 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
                 case R.id.btnSubmit:
                     if (NetworkManager.isConnectToInternet(mContext)) {
                         submitPersonalProfile();
+                    } else {
+                        ProjectUtils.showToast(mContext, getResources().getString(R.string.internet_concation));
+                    }
+                    break;
+                case R.id.etLocationD:
+                    if (NetworkManager.isConnectToInternet(mContext)) {
+                        findPlace();
                     } else {
                         ProjectUtils.showToast(mContext, getResources().getString(R.string.internet_concation));
                     }
