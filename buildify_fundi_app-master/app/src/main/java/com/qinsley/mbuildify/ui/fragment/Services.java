@@ -26,7 +26,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.cocosw.bottomsheet.BottomSheet;
+
 import com.qinsley.mbuildify.DTO.ArtistDetailsDTO;
 import com.qinsley.mbuildify.DTO.ProductDTO;
 import com.qinsley.mbuildify.DTO.UserDTO;
@@ -44,6 +44,7 @@ import com.qinsley.mbuildify.utils.MainFragment;
 import com.qinsley.mbuildify.utils.ProjectUtils;
 
 import org.json.JSONObject;
+import org.michaelbel.bottomsheet.BottomSheet;
 
 import java.io.File;
 import java.io.IOException;
@@ -103,9 +104,9 @@ public class Services extends Fragment {
         tvNotFound = (CustomTextViewBold) v.findViewById(R.id.tvNotFound);
         rlView = (RelativeLayout) v.findViewById(R.id.rlView);
 
-        builder = new BottomSheet.Builder(getActivity()).sheet(R.menu.menu_cards);
-        builder.title(getResources().getString(R.string.select_img));
-        builder.listener(new DialogInterface.OnClickListener() {
+        builder = new BottomSheet.Builder(getActivity());
+        builder.setTitle(getResources().getString(R.string.select_img));
+        builder.setMenu(R.menu.menu_cards,new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 switch (which) {

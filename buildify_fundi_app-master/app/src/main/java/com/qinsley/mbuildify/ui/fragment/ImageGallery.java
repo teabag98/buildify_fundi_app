@@ -28,7 +28,6 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.cocosw.bottomsheet.BottomSheet;
 import com.qinsley.mbuildify.DTO.ArtistDetailsDTO;
 import com.qinsley.mbuildify.DTO.GalleryDTO;
 import com.qinsley.mbuildify.DTO.UserDTO;
@@ -47,6 +46,7 @@ import com.qinsley.mbuildify.utils.ProjectUtils;
 import com.qinsley.mbuildify.utils.TouchImageView;
 
 import org.json.JSONObject;
+import org.michaelbel.bottomsheet.BottomSheet;
 
 import java.io.File;
 import java.io.IOException;
@@ -114,9 +114,9 @@ public class ImageGallery extends Fragment implements View.OnClickListener {
         ivClose = (ImageView) v.findViewById(R.id.ivClose);
         ivClose.setOnClickListener(this);
 
-        builder = new BottomSheet.Builder(getActivity()).sheet(R.menu.menu_cards);
-        builder.title(getResources().getString(R.string.select_img));
-        builder.listener(new DialogInterface.OnClickListener() {
+        builder = new BottomSheet.Builder(getActivity());
+        builder.setTitle(getResources().getString(R.string.select_img));
+        builder.setMenu(R.menu.menu_cards,new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 switch (which) {
@@ -184,6 +184,7 @@ public class ImageGallery extends Fragment implements View.OnClickListener {
                 }
             }
         });
+
 
         showData();
 

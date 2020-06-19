@@ -27,7 +27,6 @@ import androidx.core.content.FileProvider;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.cocosw.bottomsheet.BottomSheet;
 import com.google.android.gms.location.places.Place;
 import com.google.gson.Gson;
 import com.qinsley.mbuildify.DTO.ArtistDetailsDTO;
@@ -50,6 +49,7 @@ import com.qinsley.mbuildify.utils.SpinnerDialog;
 import com.schibstedspain.leku.LocationPickerActivity;
 
 import org.json.JSONObject;
+import org.michaelbel.bottomsheet.BottomSheet;
 
 import java.io.File;
 import java.io.IOException;
@@ -157,9 +157,9 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
         llBack.setOnClickListener(this);
         etLocationD.setOnClickListener(this);
 
-        builder = new BottomSheet.Builder(EditPersnoalInfo.this).sheet(R.menu.menu_cards);
-        builder.title(getResources().getString(R.string.select_img));
-        builder.listener(new DialogInterface.OnClickListener() {
+        builder = new BottomSheet.Builder(EditPersnoalInfo.this);
+        builder.setTitle(getResources().getString(R.string.select_img));
+        builder.setMenu(R.menu.menu_cards,new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 switch (which) {
@@ -528,6 +528,8 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
 
                 // TennisAppActivity.showDialog(add);
 
+                etLocationD.setText(obj.getAddressLine(0));
+
                 lats = lat;
                 longs = lng;
 
@@ -556,6 +558,7 @@ public class EditPersnoalInfo extends AppCompatActivity implements View.OnClickL
                     paramsUpdate.put(Consts.USER_ID, userDTO.getUser_id());
                     paramsUpdate.put(Consts.NAME, ProjectUtils.getEditTextValue(etNameD));
                     paramsUpdate.put(Consts.COUNTRY, ProjectUtils.getEditTextValue(etCountryD));
+                    paramsUpdate.put(Consts.LOCATION, ProjectUtils.getEditTextValue(etLocationD));
                     paramsUpdate.put(Consts.GRADE, gradeInt);
 
                     if (lats != 0)

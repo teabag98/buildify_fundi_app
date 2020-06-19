@@ -1,9 +1,12 @@
 package com.qinsley.mbuildify.ui.fragment;
 
+import android.Manifest;
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -12,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.core.content.FileProvider;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -19,7 +23,6 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.cocosw.bottomsheet.BottomSheet;
 import com.google.android.material.appbar.AppBarLayout;
 import com.qinsley.mbuildify.DTO.ArtistDetailsDTO;
 import com.qinsley.mbuildify.DTO.CategoryDTO;
@@ -40,8 +43,10 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONObject;
+import org.michaelbel.bottomsheet.BottomSheet;
 
 import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -74,6 +79,7 @@ public class ArtistProfile extends Fragment implements View.OnClickListener, App
     private HashMap<String, File> paramsFile;
 
     BottomSheet.Builder builder;
+
     Uri picUri;
     int PICK_FROM_CAMERA = 1, PICK_FROM_GALLERY = 2;
     int CROP_CAMERA_IMAGE = 3, CROP_GALLERY_IMAGE = 4;
@@ -135,77 +141,78 @@ public class ArtistProfile extends Fragment implements View.OnClickListener, App
 
         });
 
-//
-//        builder = new BottomSheet.Builder(getActivity()).sheet(R.menu.menu_cards);
-//        builder.title(getResources().getString(R.string.select_img));
-//        builder.listener(new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                switch (which) {
-//                    case R.id.camera_cards:
-//                        if (ProjectUtils.hasPermissionInManifest(getActivity(), PICK_FROM_CAMERA, Manifest.permission.CAMERA)) {
-//                            if (ProjectUtils.hasPermissionInManifest(getActivity(), PICK_FROM_GALLERY, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
-//                                try {
-//                                    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-//                                    File file = getOutputMediaFile(1);
-//                                    if (!file.exists()) {
-//                                        try {
-//                                            ProjectUtils.pauseProgressDialog();
-//                                            file.createNewFile();
-//                                        } catch (IOException e) {
-//                                            e.printStackTrace();
-//                                        }
-//                                    }
-//                                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-//                                        //Uri contentUri = FileProvider.getUriForFile(getApplicationContext(), "com.example.asd", newFile);
-//                                        picUri = FileProvider.getUriForFile(getActivity().getApplicationContext(), getActivity().getApplicationContext().getPackageName() + ".fileprovider", file);
-//                                    } else {
-//                                        picUri = Uri.fromFile(file); // create
-//                                    }
-//
-//                                    prefrence.setValue(Consts.IMAGE_URI_CAMERA, picUri.toString());
-//                                    intent.putExtra(MediaStore.EXTRA_OUTPUT, picUri); // set the image file
-//                                    startActivityForResult(intent, PICK_FROM_CAMERA);
-//                                } catch (Exception e) {
-//                                    e.printStackTrace();
-//                                }
-//                            }
-//                        }
-//
-//                        break;
-//                    case R.id.gallery_cards:
-//                        if (ProjectUtils.hasPermissionInManifest(getActivity(), PICK_FROM_CAMERA, Manifest.permission.CAMERA)) {
-//                            if (ProjectUtils.hasPermissionInManifest(getActivity(), PICK_FROM_GALLERY, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
-//
-//                                File file = getOutputMediaFile(1);
-//                                if (!file.exists()) {
-//                                    try {
-//                                        file.createNewFile();
-//                                    } catch (IOException e) {
-//                                        e.printStackTrace();
-//                                    }
-//                                }
-//                                picUri = Uri.fromFile(file);
-//
-//                                Intent intent = new Intent();
-//                                intent.setType("image/*");
-//                                intent.setAction(Intent.ACTION_GET_CONTENT);
-//                                startActivityForResult(Intent.createChooser(intent, getResources().getString(R.string.select_pic)), PICK_FROM_GALLERY);
-//
-//                            }
-//                        }
-//                        break;
-//                    case R.id.cancel_cards:
-//                        builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
-//                            @Override
-//                            public void onDismiss(DialogInterface dialog) {
-//                                dialog.dismiss();
-//                            }
-//                        });
-//                        break;
-//                }
-//            }
-//        });
+
+        builder = new BottomSheet.Builder(getActivity());
+        builder.setTitle(getResources().getString(R.string.select_img));
+        builder.setMenu(R.menu.menu_cards, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case R.id.camera_cards:
+                        if (ProjectUtils.hasPermissionInManifest(getActivity(), PICK_FROM_CAMERA, Manifest.permission.CAMERA)) {
+                            if (ProjectUtils.hasPermissionInManifest(getActivity(), PICK_FROM_GALLERY, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+                                try {
+                                    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                                    File file = getOutputMediaFile(1);
+                                    if (!file.exists()) {
+                                        try {
+                                            ProjectUtils.pauseProgressDialog();
+                                            file.createNewFile();
+                                        } catch (IOException e) {
+                                            e.printStackTrace();
+                                        }
+                                    }
+                                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                                        //Uri contentUri = FileProvider.getUriForFile(getApplicationContext(), "com.example.asd", newFile);
+                                        picUri = FileProvider.getUriForFile(getActivity().getApplicationContext(), getActivity().getApplicationContext().getPackageName() + ".fileprovider", file);
+                                    } else {
+                                        picUri = Uri.fromFile(file); // create
+                                    }
+
+                                    prefrence.setValue(Consts.IMAGE_URI_CAMERA, picUri.toString());
+                                    intent.putExtra(MediaStore.EXTRA_OUTPUT, picUri); // set the image file
+                                    startActivityForResult(intent, PICK_FROM_CAMERA);
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }
+
+                        break;
+                    case R.id.gallery_cards:
+                        if (ProjectUtils.hasPermissionInManifest(getActivity(), PICK_FROM_CAMERA, Manifest.permission.CAMERA)) {
+                            if (ProjectUtils.hasPermissionInManifest(getActivity(), PICK_FROM_GALLERY, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+
+                                File file = getOutputMediaFile(1);
+                                if (!file.exists()) {
+                                    try {
+                                        file.createNewFile();
+                                    } catch (IOException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                                picUri = Uri.fromFile(file);
+
+                                Intent intent = new Intent();
+                                intent.setType("image/*");
+                                intent.setAction(Intent.ACTION_GET_CONTENT);
+                                startActivityForResult(Intent.createChooser(intent, getResources().getString(R.string.select_pic)), PICK_FROM_GALLERY);
+
+                            }
+                        }
+                        break;
+                    case R.id.cancel_cards:
+                        builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                            @Override
+                            public void onDismiss(DialogInterface dialog) {
+                                dialog.dismiss();
+                            }
+                        });
+                        break;
+                }
+            }
+        });
+
 
     }
 
