@@ -23,6 +23,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.cocosw.bottomsheet.BottomSheet;
 import com.google.android.material.appbar.AppBarLayout;
 import com.qinsley.mbuildify.DTO.ArtistDetailsDTO;
 import com.qinsley.mbuildify.DTO.CategoryDTO;
@@ -36,6 +37,7 @@ import com.qinsley.mbuildify.network.NetworkManager;
 import com.qinsley.mbuildify.preferences.SharedPrefrence;
 import com.qinsley.mbuildify.ui.activity.BaseActivity2;
 import com.qinsley.mbuildify.ui.activity.EditPersnoalInfo;
+import com.qinsley.mbuildify.utils.CustomButton;
 import com.qinsley.mbuildify.utils.ImageCompression;
 import com.qinsley.mbuildify.utils.MainFragment;
 import com.qinsley.mbuildify.utils.ProjectUtils;
@@ -43,7 +45,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONObject;
-import org.michaelbel.bottomsheet.BottomSheet;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -70,6 +72,7 @@ public class ArtistProfile extends Fragment implements View.OnClickListener, App
     private Services services = new Services();
     private Reviews reviews = new Reviews();
     private Bundle bundle;
+    private CustomButton btnDelete, btnChange;
     private ViewPagerAdapter adapter;
     private int mMaxScrollSize;
     private static final int PERCENTAGE_TO_ANIMATE_AVATAR = 20;
@@ -98,6 +101,7 @@ public class ArtistProfile extends Fragment implements View.OnClickListener, App
         // Inflate the layout for this fragment
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_artist_profile, container, false);
 
+
         prefrence = SharedPrefrence.getInstance(getActivity());
         userDTO = prefrence.getParentUser(Consts.USER_DTO);
         baseActivity.headerNameTV.setText(getResources().getString(R.string.my_profile));
@@ -110,6 +114,8 @@ public class ArtistProfile extends Fragment implements View.OnClickListener, App
     }
 
     public void setUiAction() {
+
+
         binding.ivEditPersonal.setOnClickListener(this);
         binding.appbar.addOnOffsetChangedListener(this);
         binding.btnDelete.setOnClickListener(this);
@@ -142,9 +148,9 @@ public class ArtistProfile extends Fragment implements View.OnClickListener, App
         });
 
 
-        builder = new BottomSheet.Builder(getActivity());
-        builder.setTitle(getResources().getString(R.string.select_img));
-        builder.setMenu(R.menu.menu_cards, new DialogInterface.OnClickListener() {
+        builder = new BottomSheet.Builder(getActivity()).sheet(R.menu.menu_cards);
+        builder.title(getResources().getString(R.string.select_img));
+        builder.listener(new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 switch (which) {
