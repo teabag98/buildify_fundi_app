@@ -20,18 +20,18 @@
 
             <ImageView
                 android:id="@+id/ivLogo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="368dp"
+                android:layout_height="152dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="40dp"
-                android:src="@drawable/launcher_logo" />
+                android:src="@drawable/logo_fab" />
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/ivLogo"
-                android:layout_marginTop="-434dp"
+                android:layout_marginTop="20dp"
                 android:orientation="vertical"
                 android:padding="30dp">
 

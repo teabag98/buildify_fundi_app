@@ -10,19 +10,18 @@
 
     <ImageView
         android:id="@+id/ivLogo"
-        android:layout_width="398dp"
-        android:layout_height="549dp"
-        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
         android:layout_marginTop="60dp"
-        android:src="@drawable/launcher_logo" />
+        android:src="@drawable/logo_fab" />
 
 
     <LinearLayout
         android:id="@+id/LLsign"
-        android:layout_width="396dp"
-        android:layout_height="572dp"
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
         android:layout_below="@+id/ivLogo"
-        android:layout_marginTop="-421dp"
+        android:layout_marginTop="-6dp"
         android:orientation="vertical"
         android:padding="30dp">
 
