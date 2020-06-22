@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50956590-3cab-4167-a90c-569b5268e126" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_cocosw_bottomsheet_1_5_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -51,21 +50,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_michaelbel_bottomsheet_1_2_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/EditPersnoalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/EditPersnoalInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/OneTwoOneChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/activity/OneTwoOneChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/ArtistProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/ArtistProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/ImageGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/ImageGallery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/qinsley/mbuildify/ui/fragment/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/logo_fab.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/logo_fab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,13 +161,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1dTVBruDzwRnW9YWc37wg6AemJ5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DEBUGGABLE_DEVICE" value="lge-nexus_5x-00d099ee0fd530d1" />
     <property name="DEBUGGABLE_PROCESS" value="com.samyotech.fabartists" />
     <property name="DEBUGGER_ID" value="Auto" />
@@ -193,7 +185,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="device.picker.selection" value="00d099ee0fd530d1" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-nodpi" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -202,11 +194,12 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Erick\Desktop\buildify_fundi\buildify_fundi_app-master" />
-      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\values" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-nodpi" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Erick\Desktop\buildify_fundi\buildify_fundi_app-master\app\src\main\res\drawable-nodpi" />
+      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\drawable-nodpi" />
+      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\mipmap-xxhdpi" />
+      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\mipmap-xhdpi" />
+      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\mipmap-mdpi" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="AlertDialog" />
@@ -222,12 +215,11 @@
       <recent name="com.getthatdone.provider.ui.fragment" />
       <recent name="com.getthatdone.provider.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\drawable-nodpi" />
-      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\mipmap-xxhdpi" />
-      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\mipmap-xhdpi" />
-      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\mipmap-mdpi" />
-      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\mipmap-hdpi" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Erick\Desktop\buildify_fundi\buildify_fundi_app-master" />
+      <recent name="C:\Users\Erick\Downloads\codecanyon-22283009-hire-for-work-fab-artist-android\02_aug_19_code_update\amit_ujj-fab_artist\mbuildify\app\src\main\res\values" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-nodpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -425,39 +417,48 @@
     </todo-panel>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="496" y="58" key="#app" timestamp="1592819321455">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="58" key="#app/0.0.1536.824@0.0.1536.824" timestamp="1592819321455" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592711406796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592711406796" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1592567342573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592567342573" />
-    <state width="1476" height="166" key="GridCell.Tab.0.bottom" timestamp="1592653870871">
+    <state width="1491" height="167" key="GridCell.Tab.0.bottom" timestamp="1592711406835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592653870871" />
-    <state width="1476" height="166" key="GridCell.Tab.0.center" timestamp="1592653870871">
+    <state width="1491" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592711406835" />
+    <state width="1491" height="167" key="GridCell.Tab.0.center" timestamp="1592711406834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592653870871" />
-    <state width="1476" height="166" key="GridCell.Tab.0.left" timestamp="1592653870870">
+    <state width="1491" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592711406834" />
+    <state width="1491" height="167" key="GridCell.Tab.0.left" timestamp="1592711406834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592653870870" />
-    <state width="1476" height="166" key="GridCell.Tab.0.right" timestamp="1592653870871">
+    <state width="1491" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592711406834" />
+    <state width="1491" height="167" key="GridCell.Tab.0.right" timestamp="1592711406835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592653870871" />
-    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1592652802839">
+    <state width="1491" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592711406835" />
+    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1592819561248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1592652802839" />
-    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1592585129386">
+    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1592819561248" />
+    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1592711059513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1592585129386" />
+    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1592711059513" />
     <state x="410" y="142" width="700" height="530" key="recent.locations.popup" timestamp="1592585064601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
