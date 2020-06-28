@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.qinsley.mbuildify;
+package com.mbuildify.artisan;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");

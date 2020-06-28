@@ -16,7 +16,7 @@
             android:layout_height="50dp"
             android:src="@drawable/dummyuser_image" />
 
-        <com.qinsley.mbuildify.utils.CustomTextView
+        <com.mbuildify.artisan.utils.CustomTextView
             android:id="@+id/CTVjobdonefor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
             android:text="@string/job_done_for"
             android:textSize="12sp" />
 
-        <com.qinsley.mbuildify.utils.CustomTextViewBold
+        <com.mbuildify.artisan.utils.CustomTextViewBold
             android:id="@+id/CTVBprevioususer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             android:rating="4.5"
             android:theme="@style/RatingBar" />
 
-        <com.qinsley.mbuildify.utils.CustomTextView
+        <com.mbuildify.artisan.utils.CustomTextView
             android:id="@+id/CTVprice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -12,5 +12,5 @@
                      android:targetPackage="com.qinsley.mbuildify"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.qinsley.mbuildify"/>
+                     android:label="Tests for com.mbuildify.artisan"/>
 </manifest>

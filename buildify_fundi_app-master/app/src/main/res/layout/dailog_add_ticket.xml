@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/dialog_back_blue">
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/ctvbTitle"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -41,26 +41,26 @@
             android:layout_marginTop="5dp"
             android:orientation="vertical">
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:text="@string/enter_title" />
 
-            <com.qinsley.mbuildify.utils.CustomEditText
+            <com.mbuildify.artisan.utils.CustomEditText
                 android:id="@+id/etReason"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
                 android:singleLine="true" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:text="@string/write_description" />
 
-            <com.qinsley.mbuildify.utils.CustomEditText
+            <com.mbuildify.artisan.utils.CustomEditText
                 android:id="@+id/etDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/tvCancel"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
@@ -104,7 +104,7 @@
                 android:layout_height="match_parent"
                 android:background="@color/colorPrimary" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/tvAdd"
                 android:layout_width="0dp"
                 android:layout_height="50dp"

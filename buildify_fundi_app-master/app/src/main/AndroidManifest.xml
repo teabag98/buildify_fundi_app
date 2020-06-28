@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.qinsley.mbuildify">
+    package="com.mbuildify.artisan">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -45,26 +45,26 @@
             android:required="false" />
 
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.ViewInvoice"
+            android:name="com.mbuildify.artisan.ui.activity.ViewInvoice"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden"></activity>
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.Privacy"
+            android:name="com.mbuildify.artisan.ui.activity.Privacy"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.UploadCertificates"
+            android:name="com.mbuildify.artisan.ui.activity.UploadCertificates"
 
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.Terms"
+            android:name="com.mbuildify.artisan.ui.activity.Terms"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.EditPersnoalInfo"
+            android:name="com.mbuildify.artisan.ui.activity.EditPersnoalInfo"
             android:screenOrientation="portrait" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.qinsley.mbuildify.fileprovider"
+            android:authorities="com.mbuildify.artisan.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -85,7 +85,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name="com.qinsley.mbuildify.SplashActivity">
+        <activity android:name="com.mbuildify.artisan.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -93,47 +93,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.SignUpActivity"
+            android:name="com.mbuildify.artisan.ui.activity.SignUpActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.AppIntro"
+            android:name="com.mbuildify.artisan.ui.activity.AppIntro"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.SignInActivity"
+            android:name="com.mbuildify.artisan.ui.activity.SignInActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.BaseActivity2"
+            android:name="com.mbuildify.artisan.ui.activity.BaseActivity2"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.qinsley.mbuildify.utils.MainFragment"
+            android:name="com.mbuildify.artisan.utils.MainFragment"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.OneTwoOneChat"
+            android:name="com.mbuildify.artisan.ui.activity.OneTwoOneChat"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.CommentOneByOne"
+            android:name="com.mbuildify.artisan.ui.activity.CommentOneByOne"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.ForgotPass"
+            android:name="com.mbuildify.artisan.ui.activity.ForgotPass"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.AddMoney"
+            android:name="com.mbuildify.artisan.ui.activity.AddMoney"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.qinsley.mbuildify.ui.activity.PaymetWeb"
+            android:name="com.mbuildify.artisan.ui.activity.PaymetWeb"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.schibstedspain.leku.LocationPickerActivity"
             android:label="@string/leku_title_activity_location_picker"
-            android:parentActivityName="com.qinsley.mbuildify.ui.activity.BaseActivity2"
+            android:parentActivityName="com.mbuildify.artisan.ui.activity.BaseActivity2"
             android:theme="@style/AppTheme.Map"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -145,9 +145,9 @@
                 android:resource="@xml/leku_searchable" />
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.qinsley.mbuildify.ui.activity.BaseActivity2" />
+                android:value="com.mbuildify.artisan.ui.activity.BaseActivity2" />
         </activity> <!-- [START firebase_service] -->
-        <service android:name="com.qinsley.mbuildify.MyFirebaseMessagingService">
+        <service android:name="com.mbuildify.artisan.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

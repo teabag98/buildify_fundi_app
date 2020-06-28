@@ -22,13 +22,13 @@
             android:layout_height="wrap_content"
             android:padding="10dp">
 
-            <com.qinsley.mbuildify.utils.CustomTextViewBold
+            <com.mbuildify.artisan.utils.CustomTextViewBold
                 android:id="@+id/tvTicket"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/tvDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
                 android:layout_alignParentRight="true"
                 android:background="@drawable/rectangle_red">
 
-                <com.qinsley.mbuildify.utils.CustomTextView
+                <com.mbuildify.artisan.utils.CustomTextView
                     android:id="@+id/tvStatus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

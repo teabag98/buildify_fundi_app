@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
 
-            <com.qinsley.mbuildify.utils.CustomTextViewBold
+            <com.mbuildify.artisan.utils.CustomTextViewBold
                 android:id="@+id/headerNameTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

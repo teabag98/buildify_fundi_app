@@ -26,7 +26,7 @@
             android:layout_height="match_parent"
             android:visibility="gone">
 
-            <com.qinsley.mbuildify.utils.TouchImageView
+            <com.mbuildify.artisan.utils.TouchImageView
                 android:id="@+id/ivZoom"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -44,7 +44,7 @@
         </RelativeLayout>
     </RelativeLayout>
 
-    <com.qinsley.mbuildify.utils.CustomTextViewBold
+    <com.mbuildify.artisan.utils.CustomTextViewBold
         android:id="@+id/tvNotFound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

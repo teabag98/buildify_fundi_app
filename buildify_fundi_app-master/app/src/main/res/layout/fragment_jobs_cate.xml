@@ -27,7 +27,7 @@
                 android:layout_width="240dp"
                 android:layout_height="wrap_content">
 
-                <com.qinsley.mbuildify.utils.CustomTextView
+                <com.mbuildify.artisan.utils.CustomTextView
                     android:id="@+id/tvAllJobs"
                     android:layout_width="0dp"
                     android:layout_height="40dp"
@@ -37,7 +37,7 @@
                     android:text="@string/all_jobs"
                     android:textColor="@color/white" />
 
-                <com.qinsley.mbuildify.utils.CustomTextView
+                <com.mbuildify.artisan.utils.CustomTextView
                     android:id="@+id/tvAppliedJobs"
                     android:layout_width="0dp"
                     android:layout_height="40dp"

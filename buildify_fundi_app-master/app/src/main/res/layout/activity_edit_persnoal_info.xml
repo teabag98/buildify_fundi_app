@@ -32,7 +32,7 @@
 
         </LinearLayout>
 
-        <com.qinsley.mbuildify.utils.CustomTextViewBold
+        <com.mbuildify.artisan.utils.CustomTextViewBold
             android:id="@+id/tvHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,13 +57,13 @@
             android:orientation="vertical">
 
 
-            <com.qinsley.mbuildify.utils.InputFieldView
+            <com.mbuildify.artisan.utils.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
 
 
-                <com.qinsley.mbuildify.utils.CustomEditText
+                <com.mbuildify.artisan.utils.CustomEditText
                     android:id="@+id/etCategoryD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -73,10 +73,10 @@
                     android:singleLine="true"
                     android:text="" />
 
-            </com.qinsley.mbuildify.utils.InputFieldView>
+            </com.mbuildify.artisan.utils.InputFieldView>
 
 
-            <com.qinsley.mbuildify.utils.InputFieldView
+            <com.mbuildify.artisan.utils.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -93,15 +93,15 @@
                     style="@style/Base.Widget.AppCompat.Spinner.Underlined"
                      />
 
-            </com.qinsley.mbuildify.utils.InputFieldView>
+            </com.mbuildify.artisan.utils.InputFieldView>
 
 
-            <com.qinsley.mbuildify.utils.InputOpenFieldView
+            <com.mbuildify.artisan.utils.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
 
-                <com.qinsley.mbuildify.utils.CustomEditText
+                <com.mbuildify.artisan.utils.CustomEditText
                     android:id="@+id/etNameD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -110,14 +110,14 @@
                     android:singleLine="true"
                     android:text="" />
 
-            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+            </com.mbuildify.artisan.utils.InputOpenFieldView>
 
-            <com.qinsley.mbuildify.utils.InputFieldView
+            <com.mbuildify.artisan.utils.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
 
-                <com.qinsley.mbuildify.utils.CustomEditText
+                <com.mbuildify.artisan.utils.CustomEditText
                     android:id="@+id/etLocationD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -128,13 +128,13 @@
                     android:singleLine="true"
                     android:text="" />
 
-            </com.qinsley.mbuildify.utils.InputFieldView>
-            <com.qinsley.mbuildify.utils.InputOpenFieldView
+            </com.mbuildify.artisan.utils.InputFieldView>
+            <com.mbuildify.artisan.utils.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
 
-                <com.qinsley.mbuildify.utils.CustomEditText
+                <com.mbuildify.artisan.utils.CustomEditText
                     android:id="@+id/etCityD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -143,14 +143,14 @@
                     android:singleLine="true"
                     android:text="" />
 
-            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+            </com.mbuildify.artisan.utils.InputOpenFieldView>
 
-            <com.qinsley.mbuildify.utils.InputOpenFieldView
+            <com.mbuildify.artisan.utils.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
 
-                <com.qinsley.mbuildify.utils.CustomEditText
+                <com.mbuildify.artisan.utils.CustomEditText
                     android:id="@+id/etCountryD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -159,24 +159,24 @@
                     android:singleLine="true"
                     android:text="" />
 
-            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+            </com.mbuildify.artisan.utils.InputOpenFieldView>
 
-            <com.qinsley.mbuildify.utils.InputFieldView
+            <com.mbuildify.artisan.utils.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp" />
 
-            <com.qinsley.mbuildify.utils.InputOpenFieldView
+            <com.mbuildify.artisan.utils.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp" />
 
-            <com.qinsley.mbuildify.utils.InputOpenFieldView
+            <com.mbuildify.artisan.utils.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/bioLength"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -184,12 +184,12 @@
                 android:layout_marginTop="2dp"
                 android:text="" />
 
-            <com.qinsley.mbuildify.utils.InputOpenFieldView
+            <com.mbuildify.artisan.utils.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
 
-                <com.qinsley.mbuildify.utils.CustomEditText
+                <com.mbuildify.artisan.utils.CustomEditText
                     android:id="@+id/etAboutD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -198,9 +198,9 @@
                     android:maxLength="200"
                     android:text="" />
 
-            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+            </com.mbuildify.artisan.utils.InputOpenFieldView>
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/aboutLength"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -209,14 +209,14 @@
                 android:text="" />
 
 
-            <com.qinsley.mbuildify.utils.CustomTextViewBold
+            <com.mbuildify.artisan.utils.CustomTextViewBold
                 android:id="@+id/tvText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:textColor="@color/black" />
 
-            <com.qinsley.mbuildify.utils.CustomButton
+            <com.mbuildify.artisan.utils.CustomButton
                 android:id="@+id/btnSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

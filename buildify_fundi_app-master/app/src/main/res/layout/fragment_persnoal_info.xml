@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp">
 
-                    <com.qinsley.mbuildify.utils.CustomTextView
+                    <com.mbuildify.artisan.utils.CustomTextView
                         android:id="@+id/tvArtistRate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
                             android:scaleY=".5"
                             android:theme="@style/RatingBar" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvRating"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                             android:layout_height="wrap_content"
                             android:src="@drawable/ic_job_briefcase" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvJobComplete"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -126,7 +126,7 @@
                             android:layout_height="wrap_content"
                             android:src="@drawable/ic_workdone" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvProfileComplete"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -174,7 +174,7 @@
                         android:layout_toRightOf="@+id/ivOne"
                         android:orientation="vertical">
 
-                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+                        <com.mbuildify.artisan.utils.CustomTextViewBold
                             android:id="@+id/ctvbPublic"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -182,13 +182,13 @@
                             android:textColor="@color/black"
                             android:textSize="18sp" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/select_your_payment_mode"
                             android:textSize="12sp" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvRate"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -261,7 +261,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+                        <com.mbuildify.artisan.utils.CustomTextViewBold
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:singleLine="true"
@@ -272,7 +272,7 @@
 
                     </RelativeLayout>
 
-                    <com.qinsley.mbuildify.utils.CustomTextView
+                    <com.mbuildify.artisan.utils.CustomTextView
                         android:id="@+id/tvAbout"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -307,7 +307,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+                        <com.mbuildify.artisan.utils.CustomTextViewBold
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:singleLine="true"
@@ -353,12 +353,12 @@
                     android:layout_margin="10dp"
                     android:orientation="vertical">
 
-                    <com.qinsley.mbuildify.utils.InputOpenFieldView
+                    <com.mbuildify.artisan.utils.InputOpenFieldView
                         android:id="@+id/inputLLName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <com.qinsley.mbuildify.utils.CustomEditText
+                        <com.mbuildify.artisan.utils.CustomEditText
                             android:id="@+id/etName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -367,15 +367,15 @@
                             android:singleLine="true"
                             android:text=""
                             android:textSize="14sp" />
-                    </com.qinsley.mbuildify.utils.InputOpenFieldView>
+                    </com.mbuildify.artisan.utils.InputOpenFieldView>
 
-                    <com.qinsley.mbuildify.utils.InputOpenFieldView
+                    <com.mbuildify.artisan.utils.InputOpenFieldView
                         android:id="@+id/inputLLEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp">
 
-                        <com.qinsley.mbuildify.utils.CustomEditText
+                        <com.mbuildify.artisan.utils.CustomEditText
                             android:id="@+id/etEmail"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -386,15 +386,15 @@
                             android:singleLine="true"
                             android:text=""
                             android:textSize="14sp" />
-                    </com.qinsley.mbuildify.utils.InputOpenFieldView>
+                    </com.mbuildify.artisan.utils.InputOpenFieldView>
 
-                    <com.qinsley.mbuildify.utils.InputOpenFieldView
+                    <com.mbuildify.artisan.utils.InputOpenFieldView
                         android:id="@+id/inputLLMobileNo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp">
 
-                        <com.qinsley.mbuildify.utils.CustomEditText
+                        <com.mbuildify.artisan.utils.CustomEditText
                             android:id="@+id/etMobileNo"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -403,7 +403,7 @@
                             android:singleLine="true"
                             android:text=""
                             android:textSize="14sp" />
-                    </com.qinsley.mbuildify.utils.InputOpenFieldView>
+                    </com.mbuildify.artisan.utils.InputOpenFieldView>
 
                     <LinearLayout
                         android:id="@+id/ll_gender_section"
@@ -412,7 +412,7 @@
                         android:layout_marginTop="5dp"
                         android:orientation="vertical">
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/gender"
@@ -456,7 +456,7 @@
                     </LinearLayout>
 
 
-                    <com.qinsley.mbuildify.utils.CustomButton
+                    <com.mbuildify.artisan.utils.CustomButton
                         android:id="@+id/btnUpdate"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"

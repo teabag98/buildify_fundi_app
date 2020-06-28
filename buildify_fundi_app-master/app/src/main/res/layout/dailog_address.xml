@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/dialog_back_blue">
 
-            <com.qinsley.mbuildify.utils.CustomTextViewBold
+            <com.mbuildify.artisan.utils.CustomTextViewBold
                 android:id="@+id/ctvbTitle"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -37,12 +37,12 @@
             android:layout_margin="10dp"
             android:orientation="vertical">
 
-            <com.qinsley.mbuildify.utils.InputOpenFieldView
+            <com.mbuildify.artisan.utils.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
 
-                <com.qinsley.mbuildify.utils.CustomEditText
+                <com.mbuildify.artisan.utils.CustomEditText
                     android:id="@+id/etHomeAddressD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -51,14 +51,14 @@
                     android:singleLine="true"
                     android:text="" />
 
-            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+            </com.mbuildify.artisan.utils.InputOpenFieldView>
 
-            <com.qinsley.mbuildify.utils.InputOpenFieldView
+            <com.mbuildify.artisan.utils.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
 
-                <com.qinsley.mbuildify.utils.CustomEditText
+                <com.mbuildify.artisan.utils.CustomEditText
                     android:id="@+id/etOfficeAddressD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
                     android:singleLine="true"
                     android:text="" />
 
-            </com.qinsley.mbuildify.utils.InputOpenFieldView>
+            </com.mbuildify.artisan.utils.InputOpenFieldView>
 
 
         </LinearLayout>
@@ -85,7 +85,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <com.qinsley.mbuildify.utils.CustomTextViewBold
+            <com.mbuildify.artisan.utils.CustomTextViewBold
                 android:id="@+id/tvYesAddress"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
@@ -101,7 +101,7 @@
                 android:layout_height="match_parent"
                 android:background="@color/colorPrimaryDark" />
 
-            <com.qinsley.mbuildify.utils.CustomTextViewBold
+            <com.mbuildify.artisan.utils.CustomTextViewBold
                 android:id="@+id/tvNoAddress"
                 android:layout_width="0dp"
                 android:layout_height="50dp"

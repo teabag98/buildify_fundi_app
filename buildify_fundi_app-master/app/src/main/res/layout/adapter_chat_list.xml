@@ -23,7 +23,7 @@
             android:padding="10dp">
 
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/tvDay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
                 android:layout_marginTop="15dp"
                 android:src="@drawable/dummyuser_image" />
 
-            <com.qinsley.mbuildify.utils.CustomTextViewBold
+            <com.mbuildify.artisan.utils.CustomTextViewBold
                 android:id="@+id/tvTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/tvDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                 android:textColor="@color/colorPrimary"
                 android:textSize="14sp" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/tvMsg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

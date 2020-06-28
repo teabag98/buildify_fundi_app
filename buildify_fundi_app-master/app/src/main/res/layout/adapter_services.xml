@@ -19,14 +19,14 @@
         android:layout_margin="3dp"
         android:orientation="vertical">
 
-        <com.qinsley.mbuildify.utils.CustomTextView
+        <com.mbuildify.artisan.utils.CustomTextView
             android:id="@+id/CTVproductname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:text="" />
 
-        <com.qinsley.mbuildify.utils.CustomTextView
+        <com.mbuildify.artisan.utils.CustomTextView
             android:id="@+id/CTVproductprice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

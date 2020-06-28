@@ -21,20 +21,20 @@
             android:layout_height="wrap_content"
             android:padding="10dp">
 
-            <com.qinsley.mbuildify.utils.CustomTextViewBold
+            <com.mbuildify.artisan.utils.CustomTextViewBold
                 android:id="@+id/CTVBservice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/CTVdate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/CTVBservice"
                 android:text="" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/CTVprice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
                 android:text=""
                 android:textColor="@color/colorPrimary" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/CTVTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,14 +67,14 @@
                 android:layout_below="@+id/view"
                 android:layout_marginTop="8dp">
 
-                <com.qinsley.mbuildify.utils.CustomTextViewBold
+                <com.mbuildify.artisan.utils.CustomTextViewBold
                     android:id="@+id/CTVBser"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:text="@string/services_type" />
 
-                <com.qinsley.mbuildify.utils.CustomTextView
+                <com.mbuildify.artisan.utils.CustomTextView
                     android:id="@+id/CTVServicetype"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                     android:layout_alignParentRight="true"
                     android:background="@drawable/rectangle_red">
 
-                    <com.qinsley.mbuildify.utils.CustomTextView
+                    <com.mbuildify.artisan.utils.CustomTextView
                         android:id="@+id/tvStatus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -121,7 +121,7 @@
                     android:layout_height="50dp"
                     android:src="@drawable/dummyuser_image" />
 
-                <com.qinsley.mbuildify.utils.CustomTextView
+                <com.mbuildify.artisan.utils.CustomTextView
                     android:id="@+id/CTVwork"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
                     android:textAllCaps="true" />
 
 
-                <com.qinsley.mbuildify.utils.CustomTextView
+                <com.mbuildify.artisan.utils.CustomTextView
                     android:id="@+id/CTVname"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
                     android:layout_toRightOf="@+id/IVprofile"
                     android:text="" />
 
-                <com.qinsley.mbuildify.utils.CustomTextView
+                <com.mbuildify.artisan.utils.CustomTextView
                     android:id="@+id/tvView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

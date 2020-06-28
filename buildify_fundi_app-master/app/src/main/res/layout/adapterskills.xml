@@ -17,7 +17,7 @@
             android:layout_centerVertical="true"
             android:src="@drawable/ic_check_mark" />
 
-        <com.qinsley.mbuildify.utils.CustomTextView
+        <com.mbuildify.artisan.utils.CustomTextView
             android:id="@+id/tvSkills"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -24,7 +24,7 @@
                 android:layout_marginLeft="10dp"
                 android:src="@drawable/ic_close" />
 
-            <com.qinsley.mbuildify.utils.CustomTextView
+            <com.mbuildify.artisan.utils.CustomTextView
                 android:id="@+id/tvInvoiceId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
                             android:layout_height="60dp"
                             android:src="@drawable/dummyuser_image" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvName"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                             android:textColor="@color/black"
                             android:textSize="16sp" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvWork"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
                                 android:layout_weight="0.5"
                                 android:orientation="vertical">
 
-                                <com.qinsley.mbuildify.utils.CustomTextView
+                                <com.mbuildify.artisan.utils.CustomTextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -112,7 +112,7 @@
                                     android:text="@string/invoice_date"
                                     android:textSize="14sp" />
 
-                                <com.qinsley.mbuildify.utils.CustomTextView
+                                <com.mbuildify.artisan.utils.CustomTextView
                                     android:id="@+id/tvInvoiceDate"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
                                 android:layout_weight="0.5"
                                 android:orientation="vertical">
 
-                                <com.qinsley.mbuildify.utils.CustomTextView
+                                <com.mbuildify.artisan.utils.CustomTextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -143,7 +143,7 @@
                                     android:text="@string/due_date"
                                     android:textSize="14sp" />
 
-                                <com.qinsley.mbuildify.utils.CustomTextView
+                                <com.mbuildify.artisan.utils.CustomTextView
                                     android:id="@+id/tvInvoiceDate1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -174,7 +174,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp">
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvServiceType"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -184,7 +184,7 @@
                             android:textColor="@color/black"
                             android:textSize="16sp" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvPrice"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -204,7 +204,7 @@
                             android:background="@color/gray"></View>
 
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/view2"
@@ -215,7 +215,7 @@
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvSubtotal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -236,7 +236,7 @@
                             android:background="@color/gray"></View>
 
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/view3"
@@ -247,7 +247,7 @@
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvDiscount"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -268,7 +268,7 @@
                             android:background="@color/gray"></View>
 
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/view4"
@@ -279,7 +279,7 @@
                             android:textColor="@color/black"
                             android:textSize="16sp" />
 
-                        <com.qinsley.mbuildify.utils.CustomTextView
+                        <com.mbuildify.artisan.utils.CustomTextView
                             android:id="@+id/tvTotal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

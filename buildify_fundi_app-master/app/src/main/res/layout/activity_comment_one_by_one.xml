@@ -21,7 +21,7 @@
             android:padding="10dp"
             android:src="@drawable/back" />
 
-        <com.qinsley.mbuildify.utils.CustomTextViewBold
+        <com.mbuildify.artisan.utils.CustomTextViewBold
             android:id="@+id/tvNameHedar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                     android:textAppearance="?android:textAppearanceMedium"
                     emojicon:emojiconSize="20sp" />
 
-                <com.qinsley.mbuildify.utils.CustomEditText
+                <com.mbuildify.artisan.utils.CustomEditText
                     android:id="@+id/etMessage"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
@@ -124,7 +124,7 @@
                     android:textColorHint="#d3d3d3"
                     android:visibility="gone">
 
-                </com.qinsley.mbuildify.utils.CustomEditText>
+                </com.mbuildify.artisan.utils.CustomEditText>
             </LinearLayout>
 
             <ImageView
