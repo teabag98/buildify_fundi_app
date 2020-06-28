@@ -6,6 +6,7 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
+        vectorDrawables.useSupportLibrary = true
         applicationId "com.qinsley.mbuildify"
         minSdkVersion 21
         targetSdkVersion 28

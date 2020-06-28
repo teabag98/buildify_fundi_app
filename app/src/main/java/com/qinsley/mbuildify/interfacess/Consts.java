@@ -5,7 +5,7 @@ package com.qinsley.mbuildify.interfacess;
 public interface Consts {
     String APP_NAME = "MBuildify";
     //old 677440
-    String BASE_URL = "http://144.91.112.40:8181/Webservice/";
+    String BASE_URL = "http://admin.mbuildify.com/Webservice/";
 
     String PAYMENT_FAIL = "http://144.91.112.40:8181/Stripe/Payment/fail";
     String PAYMENT_SUCCESS = "http://144.91.112.40:8181/Stripe/Payment/success";
@@ -14,11 +14,11 @@ public interface Consts {
     String PAYMENT_FAIL_Paypal = "http://144.91.112.40:8181/Webservice/payufailure";
     String PAYMENT_SUCCESS_paypal = "http://144.91.112.40:8181/Webservice/payusuccess";
 
-    String MAKE_PAYMENT_paypal = "http://144.91.112.40:8181/Webservice/paypalWallent?";
+    String MAKE_PAYMENT_paypal = "http://admin.mbuildify.com/Webservice/mpesa?";
 
 
-    String PRIVACY_URL = "http://144.91.112.40:8181/Webservice/privacy";
-    String TERMS_URL = "http://144.91.112.40:8181/Webservice/term";
+    String PRIVACY_URL = "http://admin.mbuildify.com/Webservice/privacy";
+    String TERMS_URL = "http://admin.mbuildify.com/Webservice/term";
 
 
     /*Api Details*/

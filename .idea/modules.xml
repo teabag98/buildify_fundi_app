@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mbuildify.iml" filepath="$PROJECT_DIR$/mbuildify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="buildify_fundi_app/app" />
+      <module fileurl="file://$PROJECT_DIR$/buildify_fundi_app.iml" filepath="$PROJECT_DIR$/buildify_fundi_app.iml" group="buildify_fundi_app" />
     </modules>
   </component>
 </project>
