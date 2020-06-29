@@ -1,8 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.schibstedspain.android:leku:5.0.0@aar">
     <CLASSES>
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f226e2db7a25cd00d73d8e0606e19aed/jetified-leku-5.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f226e2db7a25cd00d73d8e0606e19aed/jetified-leku-5.0.0/res" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ca9f338b5e87dc6ecdc546f231ed412/jetified-leku-5.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ca9f338b5e87dc6ecdc546f231ed412/jetified-leku-5.0.0/res" />
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.schibstedspain.android/leku/5.0.0/79b6295475e5c4751dd4524b45b090bd906c70d8/leku-5.0.0-javadoc.jar!/" />

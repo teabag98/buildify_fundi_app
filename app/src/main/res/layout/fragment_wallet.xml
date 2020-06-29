@@ -12,7 +12,11 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextView
+=======
+        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -20,7 +24,11 @@
             android:text="@string/wallet_balance"
             android:textSize="16sp" />
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextView
+=======
+        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvWallet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,7 +65,11 @@
                 android:layout_weight="0.33"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvAll"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
@@ -65,7 +77,11 @@
                     android:text="@string/all"
                     android:textSize="16sp" />
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvAllSelect"
                     android:layout_width="match_parent"
                     android:layout_height="4dp"
@@ -78,7 +94,11 @@
                 android:layout_weight="0.33"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvDebit"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
@@ -86,7 +106,11 @@
                     android:text="@string/debit"
                     android:textSize="16sp" />
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvDebitSelect"
                     android:layout_width="match_parent"
                     android:layout_height="4dp"
@@ -100,7 +124,11 @@
                 android:layout_weight="0.33"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvCredit"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
@@ -108,7 +136,11 @@
                     android:text="@string/credit"
                     android:textSize="16sp" />
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvCreditSelect"
                     android:layout_width="match_parent"
                     android:layout_height="4dp"
@@ -131,7 +163,11 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/button_selector2">
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -158,7 +194,11 @@
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 
+<<<<<<< HEAD
     <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+    <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
         android:id="@+id/tvNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

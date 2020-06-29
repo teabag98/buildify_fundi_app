@@ -27,7 +27,11 @@
                 android:layout_width="240dp"
                 android:layout_height="wrap_content">
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvAllJobs"
                     android:layout_width="0dp"
                     android:layout_height="40dp"
@@ -37,7 +41,11 @@
                     android:text="@string/all_jobs"
                     android:textColor="@color/white" />
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvAppliedJobs"
                     android:layout_width="0dp"
                     android:layout_height="40dp"

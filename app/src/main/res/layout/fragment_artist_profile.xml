@@ -45,7 +45,11 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:id="@+id/tvOnOff"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -104,7 +108,11 @@
                     android:gravity="center_horizontal"
                     android:orientation="horizontal">
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomButton
+=======
+                    <com.qinsley.mbuildify.utils.CustomButton
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/btnDelete"
                         android:layout_width="80dp"
                         android:layout_height="25dp"
@@ -112,7 +120,11 @@
                         android:text="@string/delete"
                         android:textColor="@color/black" />
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomButton
+=======
+                    <com.qinsley.mbuildify.utils.CustomButton
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/btnChange"
                         android:layout_width="80dp"
                         android:layout_height="25dp"
@@ -123,7 +135,11 @@
                 </LinearLayout>
 
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -134,7 +150,11 @@
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvWork"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -160,7 +180,11 @@
                         android:layout_marginTop="6dp"
                         android:src="@drawable/ic_placeholder" />
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tvLocation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -171,7 +195,11 @@
                         android:textSize="12sp" />
                 </LinearLayout>
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvBio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

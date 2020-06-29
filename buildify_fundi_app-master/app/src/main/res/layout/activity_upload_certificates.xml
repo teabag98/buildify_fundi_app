@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    android:background="#E0E0E0"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <ImageView
+        android:id="@+id/certificateView"
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="22dp"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+    <Button
+        android:id="@+id/chooseCert"
+        android:layout_width="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/string_choose_file" />
+
+    <Button
+        android:id="@+id/uploadCert"
+        android:layout_width="169dp"
+        android:textColor="@color/white"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="433dp"
+        android:text="@string/string_upload_image" />
+
+    <Button
+        android:id="@+id/skipCert"
+        android:layout_width="152dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="65dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/certificateView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toEndOf="@+id/uploadCert"
+        android:text="@string/skip_upload" />
+
+    <TextView
+        android:id="@+id/textView1998"
+        android:textSize="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="348dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="90dp"
+        android:text="@string/please_upload_certificate" />
+</RelativeLayout>
+
+
+
+
+
+
+

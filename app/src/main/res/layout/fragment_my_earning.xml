@@ -34,7 +34,11 @@
                     android:layout_margin="5dp"
                     android:orientation="vertical">
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -74,14 +78,22 @@
                         android:layout_margin="5dp"
                         android:orientation="vertical">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextView
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:text="@string/online_earning"
                             android:textSize="16sp" />
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:id="@+id/tvOnlineEarning"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -112,14 +124,22 @@
                         android:layout_margin="5dp"
                         android:orientation="vertical">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextView
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:text="@string/cash_earning"
                             android:textSize="16sp" />
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:id="@+id/tvCashEarning"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -159,14 +179,22 @@
                         android:layout_margin="5dp"
                         android:orientation="vertical">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextView
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:text="@string/complete1"
                             android:textSize="16sp" />
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:id="@+id/tvCompletePercentages"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -197,14 +225,22 @@
                         android:layout_margin="5dp"
                         android:orientation="vertical">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextView
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:text="@string/total_earning"
                             android:textSize="16sp" />
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:id="@+id/tvTotalEarning"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -244,14 +280,22 @@
                         android:layout_margin="5dp"
                         android:orientation="vertical">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextView
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:text="@string/job_done"
                             android:textSize="16sp" />
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:id="@+id/tvJobDone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -282,14 +326,22 @@
                         android:layout_margin="5dp"
                         android:orientation="vertical">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextView
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:text="@string/total_job"
                             android:textSize="16sp" />
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:id="@+id/tvTotalJob"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -323,14 +375,22 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:text="@string/wallet_amount"
                         android:textSize="16sp" />
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tvWalletAmount"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -355,7 +415,11 @@
                 app:cardCornerRadius="5dp"
                 app:cardElevation="3dp">
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentBottom="true"

@@ -11,20 +11,35 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_margin="10dp"
+<<<<<<< HEAD
         android:background="@color/white"
         android:visibility="gone">
+=======
+        android:visibility="gone"
+        android:background="@color/white">
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
+=======
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:background="@color/search_back"
             app:cardCornerRadius="5dp">
 
 
+<<<<<<< HEAD
             <androidx.appcompat.widget.SearchView
+=======
+            <androidx.searchview.widget.SearchView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:id="@+id/svSearch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,7 +51,11 @@
                 app:theme="@style/AppSearchView">
 
 
+<<<<<<< HEAD
             </androidx.appcompat.widget.SearchView>
+=======
+            </androidx.searchview.widget.SearchView>
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
         </androidx.cardview.widget.CardView>
 
 
@@ -53,15 +72,26 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+<<<<<<< HEAD
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/RVhistorylist"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+=======
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/RVhistorylist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
 
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

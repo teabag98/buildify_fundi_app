@@ -1,8 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.florent37:singledateandtimepicker:1.2.2@aar">
     <CLASSES>
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f141a8d115279e1a5974bfda5269e98/jetified-singledateandtimepicker-1.2.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f141a8d115279e1a5974bfda5269e98/jetified-singledateandtimepicker-1.2.2/res" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2035270656c0dc2f443a08cd902757a/jetified-singledateandtimepicker-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2035270656c0dc2f443a08cd902757a/jetified-singledateandtimepicker-1.2.2/res" />
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/singledateandtimepicker/1.2.2/e7f7958283519e6a20fac3224cb05617a71fb4bf/singledateandtimepicker-1.2.2-javadoc.jar!/" />

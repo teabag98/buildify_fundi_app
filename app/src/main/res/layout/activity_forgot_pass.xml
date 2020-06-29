@@ -31,7 +31,11 @@
 
         </LinearLayout>
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,22 +53,37 @@
         android:layout_margin="20dp"
         android:orientation="vertical">
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.InputOpenFieldView
+=======
+        <com.qinsley.mbuildify.utils.InputOpenFieldView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="visible">
 
+<<<<<<< HEAD
             <com.mbuildify.artisan.utils.CustomEditText
+=======
+            <com.qinsley.mbuildify.utils.CustomEditText
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/email_id"
                 android:imeOptions="actionDone"
                 android:singleLine="true" />
+<<<<<<< HEAD
         </com.mbuildify.artisan.utils.InputOpenFieldView>
 
 
         <com.mbuildify.artisan.utils.CustomButton
+=======
+        </com.qinsley.mbuildify.utils.InputOpenFieldView>
+
+
+        <com.qinsley.mbuildify.utils.CustomButton
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/btnSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

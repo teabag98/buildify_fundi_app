@@ -19,7 +19,11 @@
             android:layout_height="wrap_content"
             android:background="@drawable/dialog_back_blue">
 
+<<<<<<< HEAD
             <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+            <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:id="@+id/ctvbTitle"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -38,12 +42,20 @@
             android:layout_margin="10dp"
             android:orientation="vertical">
 
+<<<<<<< HEAD
             <com.mbuildify.artisan.utils.InputFieldView
+=======
+            <com.qinsley.mbuildify.utils.InputFieldView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomEditText
+=======
+                <com.qinsley.mbuildify.utils.CustomEditText
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/etImageGallD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -53,7 +65,11 @@
                     android:singleLine="true"
                     android:text="" />
 
+<<<<<<< HEAD
             </com.mbuildify.artisan.utils.InputFieldView>
+=======
+            </com.qinsley.mbuildify.utils.InputFieldView>
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
 
         </LinearLayout>
 
@@ -70,7 +86,11 @@
             android:gravity="center"
             android:orientation="horizontal">
 
+<<<<<<< HEAD
             <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+            <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:id="@+id/tvYesGall"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
@@ -86,7 +106,11 @@
                 android:layout_height="match_parent"
                 android:background="@color/colorPrimaryDark" />
 
+<<<<<<< HEAD
             <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+            <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:id="@+id/tvNoGall"
                 android:layout_width="0dp"
                 android:layout_height="50dp"

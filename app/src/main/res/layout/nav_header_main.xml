@@ -49,7 +49,11 @@
 
                 android:orientation="vertical">
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -57,7 +61,11 @@
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -71,7 +79,11 @@
                     android:orientation="horizontal"
                     android:visibility="gone">
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tvOther"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -80,7 +92,11 @@
                         android:textColor="@color/white"
                         android:textSize="16sp" />
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tvEnglish"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

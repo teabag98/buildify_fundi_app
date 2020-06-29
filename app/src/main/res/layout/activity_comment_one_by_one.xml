@@ -21,7 +21,11 @@
             android:padding="10dp"
             android:src="@drawable/back" />
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvNameHedar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -108,7 +112,11 @@
                     android:textAppearance="?android:textAppearanceMedium"
                     emojicon:emojiconSize="20sp" />
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomEditText
+=======
+                <com.qinsley.mbuildify.utils.CustomEditText
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/etMessage"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
@@ -124,7 +132,11 @@
                     android:textColorHint="#d3d3d3"
                     android:visibility="gone">
 
+<<<<<<< HEAD
                 </com.mbuildify.artisan.utils.CustomEditText>
+=======
+                </com.qinsley.mbuildify.utils.CustomEditText>
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             </LinearLayout>
 
             <ImageView

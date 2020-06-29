@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <string name="app_name">MBuildify(artisan)</string>
+=======
+    <string name="app_name">MBuildify(Artisan)</string>
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
     <string name="permission_pick_rationale">READ_EXTERNAL_STORAGE permission is needed to pick image.</string>
     <string name="permission_crop_rationale">WRITE_EXTERNAL_STORAGE permission is needed to save cropped image.</string>
     <string name="button_allow">Allow</string>
@@ -24,7 +28,12 @@
     <string name="string_choose_file">Choose certificate</string>
     <string name="string_upload_image">Upload</string>
     <string name="skip_upload">Skip</string>
+<<<<<<< HEAD
     <string name="please_upload_certificate">* Please upload your certification to enable account verification and grading. For Ungraded artisan and Hardware registration please skip</string>
+=======
+    <string name="please_upload_certificate">** Please upload your certification to enable account verification and grading. For Ungraded artisan and Hardware registration please skip</string>
+<!--    <string name="places_api_key">AIzaSyAbDQRWBdrEU6jUbC3AQ6xWdU9ZCuw-oEw</string>-->
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
     <string name="invoice">Invoice</string>
     <string name="pending">Pending</string>
     <string name="confirm">Confirmed</string>
@@ -239,8 +248,15 @@
     <string name="delete_quali_msg">Are you sure you want to delete this qualification?</string>
     <string name="delete_gallery">Delete Gallery</string>
     <string name="delete_gallery_msg">Are you sure you want to delete this image?</string>
+<<<<<<< HEAD
     <string name="delete_service">Delete Service</string>
     <string name="delete_service_msg">Are you sure you want to delete this service?</string>
+=======
+
+    <string name="delete_service">Delete Service</string>
+    <string name="delete_service_msg">Are you sure you want to delete this service?</string>
+
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
     <string name="update_qualification">Update Qualification</string>
     <string name="val_iamg_ad">Please add image first.</string>
     <string name="val_namepro">Please enter product name.</string>
@@ -282,8 +298,15 @@
     <string name="personal">Personal</string>
     <string name="incomplete_profile">Incomplete Profile</string>
     <string name="incomplete_profile_msg">Your profile is incomplete, Please complete your profile</string>
+<<<<<<< HEAD
     <string name="approved_profile">Profile Not Approved</string>
     <string name="approved_profile_msg">Your profile is not approved by admin, Please contact to admin.</string>
+=======
+
+    <string name="approved_profile">Profile Not Approved</string>
+    <string name="approved_profile_msg">Your profile is not approved by admin, Please contact to admin.</string>
+
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
     <string name="pendings">Pending Bookings</string>
     <string name="accepted">Accepted Bookings</string>
     <string name="rejected">Rejected Bookings</string>

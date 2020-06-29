@@ -22,7 +22,11 @@
                 android:layout_margin="10dp"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextView
+=======
+                <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -43,7 +47,11 @@
                     android:src="@drawable/dummyuser_image" />
 
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -68,7 +76,11 @@
                         android:layout_height="16sp"
                         android:src="@drawable/ic_calendar" />
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tvDate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -90,7 +102,11 @@
                         android:layout_gravity="top"
                         android:src="@drawable/ic_placeholder" />
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tvLocation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -111,7 +127,11 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_type" />
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tvDescription"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -137,7 +157,11 @@
                         android:background="@drawable/button_selectorgreen"
                         android:gravity="center">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:drawableLeft="@drawable/ic_right_white"
@@ -157,7 +181,11 @@
                         android:background="@drawable/button_selector3"
                         android:gravity="center">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:drawableLeft="@drawable/ic_close_white"
@@ -188,7 +216,11 @@
                         android:background="@drawable/button_selectorgreen"
                         android:gravity="center">
 
+<<<<<<< HEAD
                         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:drawableLeft="@drawable/ic_start_job"
@@ -218,7 +250,11 @@
 
                 </LinearLayout>
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvCompleted"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -231,7 +267,11 @@
                     android:textSize="16sp"
                     android:visibility="gone" />
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/tvRejected"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

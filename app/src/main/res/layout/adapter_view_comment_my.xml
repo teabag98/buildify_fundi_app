@@ -5,7 +5,11 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
+<<<<<<< HEAD
     <com.mbuildify.artisan.utils.CustomTextView
+=======
+    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +31,11 @@
         android:background="@drawable/right_bubble_drawable"
         android:padding="10dp">
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextView
+=======
+        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/textViewMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,7 +64,11 @@
         android:layout_marginTop="2dp"
         android:src="@drawable/iconsent" />
 
+<<<<<<< HEAD
     <com.mbuildify.artisan.utils.CustomTextView
+=======
+    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
         android:id="@+id/textViewTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

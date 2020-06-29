@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/swipe_refresh_layout"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
@@ -57,7 +63,11 @@
 
 
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,4 +80,8 @@
 
     </RelativeLayout>
 
+<<<<<<< HEAD
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+=======
+</RelativeLayout>
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28

@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+<<<<<<< HEAD
     tools:context="com.mbuildify.artisan.ui.fragment.GetDiscount">
+=======
+    tools:context="com.qinsley.mbuildify.ui.fragment.GetDiscount">
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
 
 
     <androidx.cardview.widget.CardView
@@ -22,13 +26,21 @@
             android:layout_height="match_parent"
             android:layout_margin="16dp">
 
+<<<<<<< HEAD
             <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+            <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:id="@+id/CTVBaplycode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/apply_code" />
 
+<<<<<<< HEAD
             <com.mbuildify.artisan.utils.CustomTextView
+=======
+            <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:id="@+id/CTVdescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -44,14 +56,22 @@
                 android:background="@color/light_gray"
                 android:layout_marginTop="20dp">
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/CTVBcode"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:text="" />
 
+<<<<<<< HEAD
                 <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+                <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                     android:id="@+id/CTVBcopy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -67,7 +87,11 @@
 
     </androidx.cardview.widget.CardView>
 
+<<<<<<< HEAD
     <com.mbuildify.artisan.utils.CustomButton
+=======
+    <com.qinsley.mbuildify.utils.CustomButton
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
         android:id="@+id/CBinvitefriend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

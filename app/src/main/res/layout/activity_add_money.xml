@@ -21,7 +21,11 @@
             android:padding="10dp"
             android:src="@drawable/back" />
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvNameHedar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,7 +42,11 @@
         android:layout_below="@+id/header"
         android:orientation="vertical">
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextView
+=======
+        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -46,7 +54,11 @@
             android:text="@string/wallet_balance"
             android:textSize="16sp" />
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextView
+=======
+        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvWallet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -65,7 +77,11 @@
         android:layout_margin="20dp"
         android:orientation="vertical">
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomEditText
+=======
+        <com.qinsley.mbuildify.utils.CustomEditText
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/etAddMoney"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -93,7 +109,11 @@
                     android:background="@drawable/button_selector_line"
                     android:orientation="vertical">
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tv1000"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -112,7 +132,11 @@
                     android:background="@drawable/button_selector_line"
                     android:orientation="vertical">
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tv1500"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -131,7 +155,11 @@
                     android:background="@drawable/button_selector_line"
                     android:orientation="vertical">
 
+<<<<<<< HEAD
                     <com.mbuildify.artisan.utils.CustomTextView
+=======
+                    <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                         android:id="@+id/tv2000"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -145,7 +173,11 @@
 
             </LinearLayout>
 
+<<<<<<< HEAD
             <com.mbuildify.artisan.utils.CustomButton
+=======
+            <com.qinsley.mbuildify.utils.CustomButton
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:id="@+id/cbAdd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

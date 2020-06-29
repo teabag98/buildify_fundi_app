@@ -1,8 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.hotchemi:permissionsdispatcher:2.2.0@aar">
     <CLASSES>
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54357a7d0215a28a95a88f27811f283f/jetified-permissionsdispatcher-2.2.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54357a7d0215a28a95a88f27811f283f/jetified-permissionsdispatcher-2.2.0/res" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/599e9a390490d8e54b5e6976a52aec86/jetified-permissionsdispatcher-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/599e9a390490d8e54b5e6976a52aec86/jetified-permissionsdispatcher-2.2.0/res" />
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.hotchemi/permissionsdispatcher/2.2.0/ee62f8346620e8d5b4b53d81b57bb2d8c67ea28b/permissionsdispatcher-2.2.0-javadoc.jar!/" />

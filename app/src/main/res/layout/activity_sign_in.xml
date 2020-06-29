@@ -5,28 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+<<<<<<< HEAD
     tools:context="com.mbuildify.artisan.ui.activity.SignUpActivity">
+=======
+    tools:context="com.qinsley.mbuildify.ui.activity.SignUpActivity">
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
 
 
     <ImageView
         android:id="@+id/ivLogo"
+<<<<<<< HEAD
         android:layout_width="match_parent"
         android:layout_height="178dp"
         android:layout_marginTop="60dp"
         android:src="@drawable/logo_fab" />
+=======
+        android:layout_width="398dp"
+        android:layout_height="549dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/launcher_logo" />
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
 
 
     <LinearLayout
         android:id="@+id/LLsign"
+<<<<<<< HEAD
         android:layout_width="match_parent"
         android:layout_height="498dp"
         android:layout_below="@+id/ivLogo"
         android:layout_marginTop="-6dp"
+=======
+        android:layout_width="396dp"
+        android:layout_height="572dp"
+        android:layout_below="@+id/ivLogo"
+        android:layout_marginTop="-421dp"
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
         android:orientation="vertical"
         android:padding="30dp">
 
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomEditText
+=======
+        <com.qinsley.mbuildify.utils.CustomEditText
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/CETemailadd"
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -47,7 +70,11 @@
             android:layout_marginTop="15dp"
             android:background="@drawable/edittext_background">
 
+<<<<<<< HEAD
             <com.mbuildify.artisan.utils.CustomEditText
+=======
+            <com.qinsley.mbuildify.utils.CustomEditText
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
                 android:id="@+id/CETenterpassword"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -73,7 +100,11 @@
         </RelativeLayout>
 
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomButton
+=======
+        <com.qinsley.mbuildify.utils.CustomButton
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/CBsignIn"
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -83,7 +114,11 @@
             android:textAllCaps="false"
             android:textColor="@color/white" />
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/CTVBforgot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -103,13 +138,21 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextView
+=======
+        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/didn_t_have_any_account"
             android:textColor="@color/black" />
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextView
+=======
+        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/CTVsignup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

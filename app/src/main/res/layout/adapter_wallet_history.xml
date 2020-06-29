@@ -18,7 +18,11 @@
             android:layout_alignParentLeft="true"
             android:src="@drawable/credit" />
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvPaidReceive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,7 +32,11 @@
             android:textColor="@color/black"
             android:textSize="14sp" />
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextViewBold
+=======
+        <com.qinsley.mbuildify.utils.CustomTextViewBold
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,7 +45,11 @@
             android:textColor="@color/black"
             android:textSize="18sp" />
 
+<<<<<<< HEAD
         <com.mbuildify.artisan.utils.CustomTextView
+=======
+        <com.qinsley.mbuildify.utils.CustomTextView
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
             android:id="@+id/tvDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

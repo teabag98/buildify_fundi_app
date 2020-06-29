@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="buildify_fundi_app-master/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildify_fundi-buildify_fundi_app-master.iml" filepath="$PROJECT_DIR$/.idea/modules/buildify_fundi-buildify_fundi_app-master.iml" group="buildify_fundi_app-master" />
       <module fileurl="file://$PROJECT_DIR$/buildify_fundi_app-master.iml" filepath="$PROJECT_DIR$/buildify_fundi_app-master.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="buildify_fundi_app/app" />
+      <module fileurl="file://$PROJECT_DIR$/buildify_fundi_app.iml" filepath="$PROJECT_DIR$/buildify_fundi_app.iml" group="buildify_fundi_app" />
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
     </modules>
   </component>
 </project>

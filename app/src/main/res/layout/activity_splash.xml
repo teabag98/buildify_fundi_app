@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+<<<<<<< HEAD
     tools:context="com.mbuildify.artisan.SplashActivity">
+=======
+    tools:context="com.qinsley.mbuildify.SplashActivity">
+>>>>>>> e7773b3729c1a06159fcd28b6b6a785603870d28
 
     <ImageView
         android:layout_width="match_parent"
